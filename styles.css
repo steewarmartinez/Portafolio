@@ -554,6 +554,6 @@ h1 {
   }
 
   .about-info__p {
-    display: none;
+    display: initial;
   }
 }
