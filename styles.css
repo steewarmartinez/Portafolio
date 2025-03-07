@@ -466,6 +466,10 @@ h1 {
   margin-top: 1em;
 }
 
+.about-info_p {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   .menu {
     flex-direction: column;
@@ -543,5 +547,13 @@ h1 {
 
   .form-group {
     width: 80vw;
+  }
+
+  .about-info_p {
+    display: initial;
+  }
+
+  .about-info__p {
+    display: none;
   }
 }
