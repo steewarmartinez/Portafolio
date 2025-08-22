@@ -582,10 +582,9 @@ h1 {
   .portfolio .container {
     grid-template-columns: 1fr;
   }
-}
 
-@media (max-width: 1024px) {
-  .portfolio .container {
-    grid-template-columns: repeat(2, 1fr);
+  .card {
+    max-width: 90%;
+    margin: 0 auto;
   }
 }
